@@ -264,6 +264,7 @@ p {
 
 /* End Hero Section */
 
+/* Services Section */
 /* Skills Section Styles */
 #skills {
 	background-color: white;
@@ -279,7 +280,7 @@ p {
   }
   
   .skills-title {
-	font-size: 2em;
+	font-size: 3em;
 	color: #333;
   }
   
@@ -299,16 +300,17 @@ p {
   }
   
   .skill-item h2 {
-	color: #333;
-	font-size: 1.5em;
+	color: crimson;
+	font-size: 2em;
 	margin-bottom: 10px;
   }
   
   .skill-item p {
 	color: #666;
-	font-size: 1em;
+	font-size: 1.5em;
   }
-/* End Services Section */
+  
+  
 
 /* Projects section */
 #projects .projects {
@@ -651,8 +653,6 @@ p {
 		text-align: left;
 		padding-left: 20px;
 	}
-	
-  
 	/* End contact  */
 }
 /* End Media Query For Tablet */
