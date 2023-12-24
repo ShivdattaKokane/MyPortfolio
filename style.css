@@ -281,6 +281,26 @@ p {
 	margin-bottom: 50px;
   }
 #services .service-bottom {
+/* Skills Section Styles */
+#skills {
+	background-color: white;
+	padding: 80px 0;
+  }
+  
+  .skills {
+	text-align: center;
+  }
+  
+  .skills-header {
+	margin-bottom: 50px;
+  }
+  
+  .skills-title {
+	font-size: 3em;
+	color: #333;
+  }
+  
+  .skills-list {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -342,6 +362,29 @@ p {
 	text-align: left;
 }
 /* End Services Section */
+  }
+  
+  .skill-item {
+	width: 300px;
+	margin-bottom: 30px;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-item h2 {
+	color: crimson;
+	font-size: 2em;
+	margin-bottom: 10px;
+  }
+  
+  .skill-item p {
+	color: #666;
+	font-size: 1.5em;
+  }
+  
+  
 
   
 

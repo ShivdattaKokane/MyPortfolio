@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![Watch Now](./img/Design.jpg)
 # One page Portfolio Website (HTML CSS Project)
 **Watch on YouTube ![YouTube Video Views](https://img.shields.io/youtube/views/ZFQkb26UD1Y?style=social) : https://youtu.be/ZFQkb26UD1Y**
@@ -17,4 +18,6 @@ Like my works and want to support me?
 📚 [All Web Cifar Project Tutorials](https://github.com/ShaifArfan/wc-project-tutorials)
   
 
+=======
+>>>>>>> c974aeb00eb34c6bff7a6670cd55d64fce06f991
 
