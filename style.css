@@ -264,51 +264,86 @@ p {
 
 /* End Hero Section */
 
-/* Skills Section Styles */
-#skills {
-	background-color: white;
-	padding: 80px 0;
-  }
-  
-  .skills {
-	text-align: center;
-  }
-  
-  .skills-header {
+/* Services Section */
+/* Services Section */
+#services .services {
+/* text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 100px 0; */
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 100px 0;
+
+}
+#services .service-header {
 	margin-bottom: 50px;
   }
-  
-  .skills-title {
-	font-size: 2em;
-	color: #333;
-  }
-  
-  .skills-list {
+#services .service-bottom {
 	display: flex;
-	justify-content: space-around;
+	align-items: center;
+	justify-content: center;
 	flex-wrap: wrap;
-  }
-  
-  .skill-item {
-	width: 300px;
-	margin-bottom: 30px;
-	padding: 20px;
-	border: 1px solid #ddd;
-	border-radius: 5px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .skill-item h2 {
-	color: #333;
-	font-size: 1.5em;
+	margin-top: 50px;
+}
+#services .service-item {
+	/* flex-basis: 80%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(./img/img-1.png);
+	background-size: cover;
+	margin: 10px 5%;
+	position: relative;
+	z-index: 1;
+	overflow: hidden; */
+	flex-basis: calc(33.333% - 10px); /* You can adjust the percentage as needed */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  background-image: url(./img/img-1.png);
+  background-size: cover;
+  margin: 10px 10px; /* Adjust the margin as needed */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+#services .service-item::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: 0.9;
+	z-index: -1;
+}
+#services .service-bottom .icon {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+}
+#services .service-item h2 {
+	font-size: 2rem;
+	color: white;
 	margin-bottom: 10px;
-  }
-  
-  .skill-item p {
-	color: #666;
-	font-size: 1em;
-  }
+	text-transform: uppercase;
+}
+#services .service-item p {
+	color: white;
+	text-align: left;
+}
 /* End Services Section */
+
+  
 
 /* Projects section */
 #projects .projects {
@@ -567,10 +602,18 @@ p {
 	/* End Hero */
 
 	/* Services Section */
-	#services .service-bottom .service-item {
+	/* #skills .service-bottom .service-item {
 		flex-basis: 45%;
 		margin: 2.5%;
-	}
+	} */
+	
+		#services .service-item {
+		  flex-basis: calc(50% - 20px); /* Two items per row on smaller screens */
+		}
+	  
+	  
+	  /* Add another media query for even smaller screens if needed */
+	 
 	/* End Services Section */
 
 	/* Project */
@@ -651,8 +694,6 @@ p {
 		text-align: left;
 		padding-left: 20px;
 	}
-	
-  
 	/* End contact  */
 }
 /* End Media Query For Tablet */
@@ -681,9 +722,14 @@ p {
 	}
 	/* End header */
 
-	#services .service-bottom .service-item {
+	#skills .service-bottom .service-item {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
 }
+@media (max-width: 480px) {
+	#services .service-item {
+	  flex-basis: 100%; /* One item per row on even smaller screens */
+	}
+  }
 /* End  Media Query For Desktop */
