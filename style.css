@@ -200,7 +200,7 @@ p {
 
 /* Hero Section */
 #hero {
-	background-image: url(./img/hero-bg.png);
+	background-image: url(./img/bg.avif);
 	background-size: cover;
 	background-position: top center;
 	position: relative;
@@ -265,72 +265,40 @@ p {
 /* End Hero Section */
 
 /* Services Section */
-/* Services Section */
 #services .services {
-/* text-align: center;
-  max-width: 1500px;
-  margin: 0 auto;
-  padding: 100px 0; */
   text-align: center;
   max-width: 1500px;
   margin: 0 auto;
   padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+#services .service-top {
+  max-width: 500px;
+  margin: 0 auto;
 }
-#services .service-header {
-	margin-bottom: 50px;
-  }
+
 #services .service-bottom {
-/* Skills Section Styles */
-#skills {
-	background-color: white;
-	padding: 80px 0;
-  }
-  
-  .skills {
-	text-align: center;
-  }
-  
-  .skills-header {
-	margin-bottom: 50px;
-  }
-  
-  .skills-title {
-	font-size: 3em;
-	color: #333;
-  }
-  
-  .skills-list {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-	margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
 }
+
 #services .service-item {
-	/* flex-basis: 80%;
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
-	flex-direction: column;
-	padding: 30px;
-	border-radius: 10px;
-	background-image: url(./img/img-1.png);
-	background-size: cover;
-	margin: 10px 5%;
-	position: relative;
-	z-index: 1;
-	overflow: hidden; */
-	flex-basis: calc(33.333% - 10px); /* You can adjust the percentage as needed */
+  flex-basis: calc(33.333% - 20px);
   display: flex;
   align-items: flex-start;
   justify-content: center;
   flex-direction: column;
-  padding: 20px;
+  padding: 30px;
   border-radius: 10px;
   background-image: url(./img/img-1.png);
   background-size: cover;
-  margin: 10px 10px; /* Adjust the margin as needed */
+  margin: 10px 10px;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -361,30 +329,6 @@ p {
 	color: white;
 	text-align: left;
 }
-/* End Services Section */
-  }
-  
-  .skill-item {
-	width: 300px;
-	margin-bottom: 30px;
-	padding: 20px;
-	border: 1px solid #ddd;
-	border-radius: 5px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .skill-item h2 {
-	color: crimson;
-	font-size: 2em;
-	margin-bottom: 10px;
-  }
-  
-  .skill-item p {
-	color: #666;
-	font-size: 1.5em;
-  }
-  
-  
 
   
 
